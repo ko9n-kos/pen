@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite for pen class">
+    <test name="Pen test">
+        <classes>
+            <class name="task.pen.Pen"/>
+            <class name="task.pen.TestData"/>
+            <class name="task.pen.UnitTests"/>
+        </classes>
+    </test>
+</suite>
