@@ -23,7 +23,7 @@ public class TestData {
                     {0, false},
             };
         }
-        if (m.getName().toString() == "inkContainerTest") {
+        if (m.getName().toString() == "constructorWithinkContainerTest") {
             return new Object[][]{
                     {1000, 1000},
                     {500, 500},
@@ -31,7 +31,7 @@ public class TestData {
                     {0, 0},
             };
         }
-        if (m.getName().toString() == "fontSizeTest") {
+        if (m.getName().toString() == "constructorWithFontSizeTest") {
             return new Object[][]{
                     {1000, 1.0, 1.0},
                     {500, 10, 10},

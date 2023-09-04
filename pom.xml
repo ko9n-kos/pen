@@ -8,15 +8,12 @@
   <artifactId>pen</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>aqa</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <name>pen</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
-    <suiteXmlFile>testng.xml</suiteXmlFile>
   </properties>
 
   <dependencies>
@@ -37,7 +34,7 @@
           <version>3.1.2</version>
           <configuration>
             <suiteXmlFiles>
-              <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+              <suiteXmlFile>src/test/resources/${suiteXmlFile}</suiteXmlFile>
             </suiteXmlFiles>
           </configuration>
         </plugin>
